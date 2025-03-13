@@ -119,3 +119,75 @@ body {
     max-width: 100%;
     height: auto;
 }
+.payo{
+    width: 100%;
+}
+
+/* Referral Section - Circles */
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    border: 3px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* Help Cards - Border Styling */
+.card {
+    border-top: 3px solid;
+    border-image: linear-gradient(to right, red, blue) 1;
+}
+
+/* Add a subtle shadow to the icon */
+.icon {
+    font-size: 30px;
+}
+/* FAQ Drop down */
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+.faq-section h2 {
+    font-weight: bold;
+}
+.accordion-button {
+    font-weight: 500;
+}
+
+/* Footer sction about the information and contact etc */
+.footer-custom {
+    background: linear-gradient(to right, #10141c, #062e24);
+    color: white;
+}
+
+.footer-link {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.social-icon {
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    color: #ff6600;
+}
+
+.footer-logo {
+    max-width: 70px;
+}
